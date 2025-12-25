@@ -24,17 +24,38 @@ CRUD;
 
  Project Structure:
  cat-coffee-shop/
-│── app/
-│ ├── controllers/
-│ ├── models/
-│ └── views/
-│── config/
-│ └── database.php
-│── public/
-│ ├── css/
-│ ├── images/
-│ └── js/
-│── index.php
+│
+├── app/
+│   ├── controllers/
+│   │   └── MenuController.php
+│   │
+│   ├── models/
+│   │   └── Menu.php
+│   │
+│   ├── views/
+│   │   ├── menu/
+│   │   │   ├── index.php     
+│   │   │   ├── create.php     
+│   │   │   ├── edit.php          
+│
+├── config/
+│   └── database.php
+│
+public/
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+├── images/
+│   ├── cat.jpg
+│   └── cat2.jpg
+└── html/
+    ├── header.html
+    ├── footer.html
+    ├── about.html
+    └── rules.html
+└── index.php
+
 
 
 AD SOYAD: Emna Zakraoui
