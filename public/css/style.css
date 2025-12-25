@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  color: #333;
+
+  background-image: url("../images/cat2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+.navbar {
+  background: linear-gradient(135deg, #3dbbe8, #1cd1e6);
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: rgb(0, 0, 0);
+  margin-left: 18px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(139, 41, 180);
+}
+
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+
+.btn-primary {
+  background: #75a7d6;
+  color: rgb(8, 5, 5);
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-edit {
+  color: #2d83e6;
+}
+
+.btn-delete {
+  color: #3c9de7;
+}
+
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.menu-card {
+  background: white;
+  padding: 22px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,.12);
+}
+
+.category {
+  font-size: 13px;
+  color: #2ad4c0;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* CARD ACTIONS */
+.card-actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  max-width: 400px;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.1);
+}
+
+.form input,
+.form select,
+.form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+
+footer {
+  background: rgb(42, 132, 165);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+}
